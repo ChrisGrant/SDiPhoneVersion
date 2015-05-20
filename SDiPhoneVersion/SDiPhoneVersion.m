@@ -82,7 +82,7 @@
         if (orientation ==  UIDeviceOrientationPortrait)
             screenHeight = [[UIScreen mainScreen] bounds].size.height;
         
-        else if((orientation == UIDeviceOrientationLandscapeRight) || (orientation == UIInterfaceOrientationLandscapeLeft))
+        else if((orientation == UIInterfaceOrientationLandscapeRight) || (orientation == UIInterfaceOrientationLandscapeLeft))
             screenHeight = [[UIScreen mainScreen] bounds].size.width;
         
     }else
